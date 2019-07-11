@@ -1,0 +1,180 @@
+.label-input label, input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+legend{
+    font-size: 28px;
+    font-family: cursive;
+    color: white;
+}
+
+.container1{
+    height: 600px;
+    width: 400px;
+    background: linear-gradient(45deg , rgb(63, 63, 63) , rgb(34, 34, 34) , rgb(54, 54, 54) );
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 5px rgb(48, 47, 47);
+    padding-top: 2px;
+}
+
+@media screen and (max-width: 575px)
+{
+.desplace{
+margin-top: 900px;
+}
+
+.donner{
+margin-left: -50px;
+}
+}
+
+#subscribe-fieldset{
+width: 280px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;;
+border-color: rgb(128, 184, 17);
+border-width: 2px;
+box-shadow: 1px 1px 2px rgb(2, 2, 2);
+border-radius: 20px;
+height: 500px;
+
+}
+
+.label-input label{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #0f3443;
+}
+
+.label-input input{
+    outline: none;
+    height: 19px;
+    width: 250px;
+    border-radius: 2px;
+    padding-left: 5px;
+    background-color: #3d4142;
+    color: white;
+    border: none ;
+}
+
+.line{
+    width: 0%;
+    height: 2px;
+    transition: 1s;
+}
+
+.label-input input:focus + .line{
+width: 89%;
+background-color: goldenrod;
+}
+
+
+.label-input{
+    margin-top: 25px;
+}
+
+select{
+    width: 260px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #3d4142;
+    color: white;
+    outline: none;
+    outline: 9px white;
+}
+
+#subscribe{
+    width: 300px;
+    height: 30px;
+    background-color: goldenrod;
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    margin-top: 35px;
+    margin-left: -5px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+#subscribe:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 1s;
+    color: goldenrod;
+    border-radius: 5px;
+}
+
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.container1:hover{
+    animation: shake 0.9s cubic-bezier(.36,.07,.19,.97) both;
+    
+}   
+
+
+
+
+.fazet{
+    height: 700px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.fazetson{
+  height: 600px;
+  width: 100%;
+}
+
+.donner{
+    margin-left: 35vw;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #231f20;
+    font-size: 2rem;
+}
+
+.bigtext{
+    margin-top: 30px;
+    padding: 0 15px;
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0;
+    color: #9CC0D0;
+}
+
+.smalltext{
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}

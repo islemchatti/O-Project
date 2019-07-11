@@ -215,6 +215,7 @@ margin-top: 50px;
 }
 .titre1{
     font-size: 55px;
+    margin-top: 25px;
 }
 .text3{
     margin-left: 80px;
@@ -295,11 +296,12 @@ margin-top: 50px;
 }
 
 .titre2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 28px;
     width: 200px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: 90px;
+    margin-bottom: -5px;
     color: rgb(0, 119, 255);
     transform: rotate(-30deg);
 }
@@ -320,6 +322,7 @@ margin-top: 50px;
     font-size: 25px; 
     font-weight: 600;
 
+
 }
 .vertical4{
     border-right:2px solid white;
@@ -333,6 +336,32 @@ margin-top: 50px;
     margin-right: 0px;
     margin-left: 60px;
     width:450px;
+    font-family: 'Titan One', cursive;
     -webkit-text-stroke: 2.5px rgb(0, 0, 51);
    color: white;
+}
+.icoon{
+    width: 40px;
+    height: 40px;
+    margin-left:0px;
+}
+.cont-icon{
+    margin-left: 180px;
+    margin-top: 28px;
+}
+.adjust{
+    margin-right:0px;
+    padding-right: 0px;
+    margin-left: -20px;
+}
+.style1{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: rgb(69, 127, 235);
+    background-color: wrgb(189, 189, 252);
+    outline-style: none;
+    border-radius: 10px;
+    margin-left: 390px;
+    margin-top: 50px;
+ 
 }

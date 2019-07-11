@@ -1,0 +1,128 @@
+.quote{
+    height: 96.3vh;
+    width: 100vw;
+    background-image: url('../Res/olalalaa.PNG') ;
+    -webkit-background-size:cover;
+        filter: blur(1.5px);
+    filter: brightness(30%);
+    margin-top: 25px;
+    background-attachment: fixed;
+}
+
+.home{
+    margin-bottom: 50px;
+}
+
+.quote-position{
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
+    font-family: cursive;
+    font-size: 3vw;
+    color: goldenrod;
+}
+
+
+
+.quote-position2{
+    position: absolute;
+    top: 62vh;
+    left: 15vw;
+    font-family: cursive;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.quote-position:hover+ .quote-position2{
+    color: goldenrod;
+}
+
+.quote-position:hover{
+    cursor: pointer;
+}
+
+.quote-position2:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:575px){
+    .quote-position{
+        position: absolute;
+        top: 35vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 4vw;
+        color: goldenrod;
+    }
+}
+
+@media screen and (max-width:575px){
+    .quote-position2{
+        position: absolute;
+        top: 50vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 3vw;
+        color: rgb(230, 230, 230);
+    }
+}
+
+
+
+.stat{
+    height: 130px;
+    margin-top: -50px;  
+    
+}
+
+.niv1{
+    margin-top: 15px;
+    transition: 0.3s;
+    background-color: rgba(255, 251, 246, 0.993);
+}
+
+
+
+
+
+.niv1:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.3s;
+}
+
+
+.reponses{
+    margin-top: 150px;
+}
+
+.humanitaires{
+    font-weight: 600;
+}
+
+.rowsize{
+    width: 80vw;
+    height: 60vh;
+}
+
+.hb-icon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+.titlewael{
+    margin-left: 34vw;
+    font-size: 2.5vw;
+}
+
+.progress-container {
+    display: flex;
+    vertical-align: top;
+}
+
+
+
+
+

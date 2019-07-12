@@ -1,181 +1,494 @@
-.label-input label, input{
-    display: block;
-    margin-top: 5px;
-    margin-bottom: 1px;
+.quote{
+    height: 96.3vh;
+    width: 100vw;
+    background-image: url('../Res/olalalaa.PNG') ;
+    -webkit-background-size:cover;
+        filter: blur(1.5px);
+    filter: brightness(30%);
+    margin-top: 25px;
+    background-attachment: fixed;
 }
 
-legend{
-    font-size: 28px;
+.home{
+    margin-bottom: 50px;
+}
+
+.quote-position{
+    position: absolute;
+    top: 50vh;
+    left: 15vw;
     font-family: cursive;
-    color: white;
+    font-size: 3vw;
+    color: goldenrod;
 }
 
-.container1{
-    height: 600px;
-    width: 400px;
-    background: linear-gradient(45deg , rgb(63, 63, 63) , rgb(34, 34, 34) , rgb(54, 54, 54) );
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    box-shadow: 1px 1px 5px rgb(48, 47, 47);
-    padding-top: 2px;
+
+
+.quote-position2{
+    position: absolute;
+    top: 62vh;
+    left: 15vw;
+    font-family: cursive;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
 }
+
+.quote-position:hover+ .quote-position2{
+    color: goldenrod;
+}
+
+.quote-position:hover{
+    cursor: pointer;
+}
+
+.quote-position2:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:575px){
+    .quote-position{
+        position: absolute;
+        top: 35vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 4vw;
+        color: goldenrod;
+    }
+}
+
+@media screen and (max-width:575px){
+    .quote-position2{
+        position: absolute;
+        top: 50vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 3vw;
+        color: rgb(230, 230, 230);
+    }
+}
+
+
+
+.stat{
+    height: 130px;
+    margin-top: -50px;  
+    
+}
+
+.niv1{
+    margin-top: 15px;
+    transition: 0.3s;
+    background-color: rgba(255, 251, 246, 0.993);
+}
+
+
+
+
+
+.niv1:hover{
+    transform: scale(1.05,1.05);
+    transition: 0.3s;
+}
+
+
+.reponses{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.humanitaires{
+    font-weight: 600;
+}
+
+.rowsize{
+    width: 80vw;
+    height: 60vh;
+}
+
+.hb-icon{
+    height: 43px;
+    width: 43px;
+    margin-right: 15px;
+  
+}
+
+.titlewael{
+    margin-left: 34vw;
+    font-size: 2.5vw;
+}
+
+.progress-container1 {
+    display: flex;
+    vertical-align: top;
+    margin-left: 10vw;
+    margin-top: 50px;
+}
+
+.progress{
+  width: 80vw;
+  height: 5vh;
+  border-radius: 20px;
+  
+}
+
+.progress-position{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.progressquote{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 23vw;
+    margin-top: 2px;
+}
+
+.progressquote1{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 25vw;
+    margin-top: 2px;
+}
+
+.progressquote2{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 20vw;
+    margin-top: 2px;
+}
+
+.progressquote3{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 53vw;
+    margin-top: 2px;
+}
+
+.progressquote4{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 40vw;
+    margin-top: 2px;
+}
+
+.progressquote5{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 41vw;
+    margin-top: 2px;
+}
+
+.progressquote6{
+    color: rgb(131, 131, 131);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    margin-left: 52vw;
+    margin-top: 2px;
+}
+
+
+.pourc{
+font-size: 1.5vw;
+color: grey;
+margin-left: 45vw;
+}
+
+.fairedone{
+    background-color: rgb(74, 194, 184);
+    border-radius: 15px;
+    margin-left: 15vw;
+}
+
 
 @media screen and (max-width: 575px)
 {
-.desplace{
-margin-top: 900px;
-}
+    .fairedone{
+        background-color: #F8F9FA;
+        margin-left: 0px;
 
-.donner{
-margin-left: -50px;
-}
-}
-
-#subscribe-fieldset{
-width: 280px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 50px;;
-border-color: rgb(128, 184, 17);
-border-width: 2px;
-box-shadow: 1px 1px 2px rgb(2, 2, 2);
-border-radius: 20px;
-height: 500px;
-
-}
-
-.label-input label{
-    color: rgb(255, 255, 255);
-    font-size: 22px;
-    font-family: cursive;
-    font-weight: 500;
-    text-shadow: 1px 1px 1px #0f3443;
-}
-
-.label-input input{
-    outline: none;
-    height: 19px;
-    width: 250px;
-    border-radius: 2px;
-    padding-left: 5px;
-    background-color: #3d4142;
-    color: white;
-    border: none ;
-}
-
-.line{
-    width: 0%;
-    height: 2px;
-    transition: 1s;
-}
-
-.label-input input:focus + .line{
-width: 89%;
-background-color: goldenrod;
-}
-
-
-.label-input{
-    margin-top: 25px;
-}
-
-select{
-    width: 260px;
-    height: 25px;
-    border-radius: 5px;
-    background-color: #3d4142;
-    color: white;
-    outline: none;
-    outline: 9px white;
-}
-
-#subscribe{
-    width: 300px;
-    height: 30px;
-    background-color: goldenrod;
-    color: white;
-    font-size: 12px;
-    font-family: cursive;
-    margin-top: 35px;
-    margin-left: -5px;
-    padding-top: 0px;
-    padding-bottom: 10px;
-    transition: 1s;
-    border-radius: 10px;
-}
-
-#subscribe:hover{
-    cursor: pointer;
-    background-color: white;
-    transition: 1s;
-    color: goldenrod;
-    border-radius: 5px;
-}
-
-
-@keyframes shake {
-    10%, 90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-    
-    20%, 80% {
-        transform: translate3d(2px, 0, 0);
-    }
-    
-    30%, 50%, 70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-    
-    40%, 60% {
-        transform: translate3d(4px, 0, 0);
     }
 }
 
-.container1:hover{
-    animation: shake 0.9s cubic-bezier(.36,.07,.19,.97) both;
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+     'Aside  Main Main Main Main footer'
+     'Aside  Nav Nav section section section '
+     ;
     
-}   
+    grid-gap: 7px;
+    height: 500px;
+    margin-top: 1300px;
+    width: 90vw;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    
+}
 
 
 
+.aside{
+    grid-area: Aside;
+    background-image: url(https://i0.wp.com/www.solidarites.org/wp-content/uploads/2016/10/mandat-chiffre-1.jpg?fit=571%2C571&ssl=1);
+    background-size: cover;
 
-.fazet{
-    height: 700px;
+}
+
+.main{
+    grid-area: Main;
+    background-image: url(https://i1.wp.com/www.solidarites.org/wp-content/uploads/2016/10/AG.jpg?fit=750%2C350&ssl=1);
+    background-size: cover;
+}
+
+.nav{
+    grid-area: Nav;
+    background-image: url(https://i2.wp.com/www.solidarites.org/wp-content/uploads/2016/10/mandat-chiffre-4.jpg?fit=278%2C278&ssl=1);
+    background-size: cover;
+}
+
+.section{
+    grid-area: section;
+    background-image: url(https://i1.wp.com/www.solidarites.org/wp-content/uploads/2016/10/mandat-chiffre-5.jpg?fit=571%2C278&ssl=1);
+    background-size: cover;
+
+}
+
+.footer{
+    grid-area: footer;
+    background-image: url(../res/trouwe-donateur.jpg);
+    background-size: cover;
+}
+
+.chiffres-content {
     width: 100%;
-    margin-top: 50px;
-    padding: 50px;
-}
-
-.fazetson{
-  height: 600px;
-  width: 100%;
-}
-
-.donner{
-    margin-left: 35vw;
-    font-weight: 400;
-    letter-spacing: 0;
-    color: #231f20;
+    padding: 25px 30px;
     font-size: 2rem;
+    line-height: 2.5rem;
+    position: relative;
+    top: 130px;
+    bottom: 0;
+    left: 0;
+    color: white;
 }
 
-.bigtext{
-    margin-top: 30px;
-    padding: 0 15px;
-    font-size: 23px;
-    font-weight: 400;
-    text-transform: uppercase;
-    line-height: normal;
-    text-align: left;
-    letter-spacing: 0;
-    color: #9CC0D0;
+
+
+.chiffre{
+    font-size: 70px;
 }
 
-.smalltext{
-    font-size: 14px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 10px;
+
+
+
+
+
+.chiffres-content1 {
+    width: 100%;
+    padding: 25px 30px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    position: relative;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    color: white;
 }
+
+
+
+.chiffres-content2 {
+    width: 100%;
+    padding: 25px 30px;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.chiffres-content3 {
+    width: 50%;
+    padding: 25px 30px;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    color: rgb(0, 0, 0);
+}
+
+.chiffre1{
+    font-size: 30px;
+}
+
+.stats11{
+    font-family: cursive;
+    font-size: 4vw;
+    color: goldenrod;
+    position: relative;
+    top: 1300px;
+}
+
+@media screen and (max-width:575px){
+    .stats11{
+        font-family: cursive;
+        font-size: 6vw;
+        color: goldenrod;
+        position: relative;
+        top: 1350px;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-areas: 
+         'Aside  Main Main '
+         'Aside  Nav Nav   '
+         'footer footer section'
+         ;
+        
+        grid-gap: 7px;
+        height: 500px;
+        margin-top: 1400px;
+        width: 90vw;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        
+    }
+
+    .chiffres-content {
+        width: 100%;
+        padding: 25px 30px;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        position: relative;
+        top: 50px;
+        bottom: 0;
+        left: 0;
+        color: white;
+    }
+    
+    
+    
+    .chiffre{
+        font-size: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    .chiffres-content1 {
+        width: 100%;
+        padding: 25px 30px;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        position: relative;
+        top: 20px;
+        bottom: 0;
+        left: 0;
+        color: white;
+    }
+    
+    
+    
+    .chiffres-content2 {
+        width: 100%;
+        padding: 25px 30px;
+        font-size: 0.9rem;
+        line-height: 2.5rem;
+        position: relative;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        color: white;
+    }
+    
+    .chiffres-content3 {
+        width: 50%;
+        padding: 25px 30px;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        position: relative;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        color: rgb(0, 0, 0);
+    }
+    
+    .chiffre1{
+        font-size: 25px;
+    }
+    .progressquote{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2vw;
+        margin-left: 10vw;
+        margin-top: 8px;
+    }
+    
+    .progressquote1{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2vw;
+        margin-left: 10vw;
+        margin-top: 8px;
+    }
+    
+    .progressquote2{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.1vw;
+        margin-left: 1vw;
+        margin-top: 8px;
+    }
+    
+    .progressquote3{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        margin-left: 44vw;
+        margin-top: 2px;
+    }
+    
+    .progressquote4{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        margin-left: 22vw;
+        margin-top: 2px;
+    }
+    
+    .progressquote5{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 3vw;
+        margin-left: 7vw;
+        margin-top: 2px;
+    }
+    
+    .progressquote6{
+        color: rgb(131, 131, 131);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.5vw;
+        margin-left: 18vw;
+        margin-top: 8px;
+    }
+    
+}
+
+
 

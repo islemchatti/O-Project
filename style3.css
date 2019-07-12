@@ -1,0 +1,348 @@
+body{
+    overflow-x: hidden;
+}
+@media screen and (min-width: 921px){
+    .espace{
+        margin-left: 12vw;
+    }
+    
+    .espace >li{
+        margin-left: 100px;
+    }
+}
+
+.quote{
+    height: 96.3vh;
+    width: 100vw;
+    background-image: url('../res/prpos.PNG') ;
+    -webkit-background-size:cover;
+        filter: blur(1.5px);
+    filter: brightness(30%);
+    margin-top: 25px;
+    background-attachment: fixed;
+}
+
+.home{
+    margin-bottom: 5vh;
+}
+
+.quote-position{
+    position: absolute;
+    top: 30vh;
+    left: 15vw;
+    font-family: cursive;
+    font-size: 7vw;
+    color: rgb(144, 190, 250);
+}
+
+
+
+.quote-position2{
+    position: absolute;
+    top: 52vh;
+    left: 35vw;
+    font-family: cursive;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+.quote-position:hover+ .quote-position2{
+    color: goldenrod;
+}
+
+.quote-position:hover{
+    cursor: pointer;
+}
+
+.quote-position2:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:575px){
+    .quote-position{
+        position: absolute;
+        top: 35vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 4vw;
+        color: goldenrod;
+    }
+}
+
+@media screen and (max-width:575px){
+    .quote-position2{
+        position: absolute;
+        top: 50vh;
+        left: 12vw;
+        font-family: cursive;
+        font-size: 3vw;
+        color: rgb(230, 230, 230);
+    }
+}
+
+.note1{
+    color: rgb(1, 7, 88);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vw;
+    width: 70vw;
+    margin-left: 15vw;
+    text-align: center;
+}
+.trait{
+    border-top: 1px solid green;
+    width: 70vw;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+    
+}
+@media screen and (max-width:575px){
+    .note1{
+        color: rgb(1, 7, 88);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 4vw;
+        width: 80vw;
+        margin-left: 10vw;
+        text-align: center;
+    }
+    .trait{
+        border-top: 1px solid green;
+        width: 70vw;
+        margin-left: 15vw;
+        margin-bottom: 2vh;
+        
+    }
+}
+.vid{
+
+    margin-left: 28vw;
+}
+.titre1{
+    color: black;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width:1024px){
+    .vid{
+    margin-left:12vw;
+    }
+    .titre1{
+        color: black;
+        font-size: 20vw;
+        margin-left: 7vw;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width:575px){
+    .vid{
+    margin-left:5vw;
+    }
+    .titre1{
+        color: black;
+        font-size: 10vw;
+        margin-left: 5vw;
+        margin-bottom: 2vh;
+    }
+}
+
+.box1{
+    margin-top: 18vh;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    width: 30vw;
+}
+.note3{
+    color: rgb(49, 49, 49);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1vw;
+    padding: 25px;
+    margin-left: 30px;
+    background-color: rgb(252, 241, 248);
+    border: 2px solid green;
+    border-radius: 100px;
+}
+.trait2{
+    border-left: 2px solid green;
+    height: 50vh;
+    margin-left: 5vw;
+}
+.trait3{
+    width: 10vw;
+    border-top: 2px solid green;
+    margin-top: -10vh;
+    margin-left: 50vw;
+
+}
+.trait4{
+    width: 10vw;
+    border-top: 2px solid green;
+    margin-top: -20vh;
+    margin-left: 40vw;
+
+}
+
+.image1{
+    width: 15vw;
+    height: auto;
+    border: 2px solid green;
+    margin-left: -8vw;
+    border-radius: 2000px;
+}
+
+.annee1{
+    margin-top: 25vh;
+    margin-left: 5vw;
+    font-size: 30vw;
+    color: crimson;
+
+}
+.anneestyle1{
+    font-size: 7vw;
+}
+.anneestyle2{
+    font-size: 8vw;
+}
+.annee2{
+    margin-top: 20vh;
+    margin-left: 25vw;
+    font-size: 30vw;
+    color: crimson;
+}
+
+.trait5{
+    border-left: 2px solid green;
+    height: 60vh;
+    margin-left: 10vw;  
+}
+.box2{
+    margin-top: 35vh;
+    margin-left:1vw;
+    width: 30vw;
+}
+.trait6{
+    width: 10.5vw;
+    border-top: 2px solid green;
+    margin-top: -13vh;
+    margin-left: 50.1vw;
+}
+.trait7{
+    width: 10vw;
+    border-top: 2px solid green;
+    margin-top: -20vh;
+    margin-left: 40.1vw;
+}
+
+
+
+.titre2{
+    margin-left: 43vw;
+    margin-bottom: 5vh;
+}
+
+
+
+.back{
+    margin-bottom: 10vh;
+    margin-top: 0vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../res/pppppp.jpg');
+    -webkit-background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(1.5px);
+    filter: brightness(20%);
+    
+}
+.traiit{
+    margin-left: 10vw;
+    width: 90vw;
+    border-top: 2px solid gray;
+    
+}
+.back2{
+    width:1400px;
+    height: max-content;
+    background-color:rgb(189, 189, 252) ;
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+.titre3{
+    font-family: 'Courgette', cursive;
+    font-size: 28px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 90px;
+    margin-bottom: -5px;
+    color: rgb(0, 119, 255);
+    transform: rotate(-30deg);
+}
+.image5{
+    width: 300px;
+    height: 300px;
+    margin-top: -90px;
+    transform: rotate(30deg);
+}
+.vertical3{
+    border-right:2px solid white;
+    height: 230px;
+    margin-top: 58px;
+    margin-left:200px ;
+}
+.text{
+    width: 200px;
+    font-size: 18px;
+    color: rgb(2, 1, 48);
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.span2{
+    font-size: 25px; 
+    font-weight: 600;
+}
+.vertical4{
+    border-right:2px solid white;
+    height: 230px;
+    margin-top: 58px;
+    margin-left:100px ;
+}
+.titre4{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-right: 0px;
+    margin-left: 60px;
+    width:450px;
+    font-family: 'Titan One', cursive;
+    -webkit-text-stroke: 2.5px rgb(0, 0, 51);
+   color: white;
+}
+.icoon{
+    width: 40px;
+    height: 40px;
+    margin-left:0px;
+}
+.cont-icon{
+    margin-left: 180px;
+    margin-top: 28px;
+}
+.adjust{
+    margin-right:0px;
+    padding-right: 0px;
+    margin-left: -20px;
+}
+.style1{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    color: rgb(69, 127, 235);
+    background-color: wrgb(189, 189, 252);
+    outline-style: none;
+    border-radius: 10px;
+    margin-left: 390px;
+    margin-top: 50px;
+ 
+}
+.maargin{
+    height: 8vh;
+    width: 100vw;
+}
